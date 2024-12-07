@@ -1,0 +1,40 @@
+body {
+  font-family: Impact;
+  background-color: linen;
+}
+
+.roomname {
+  font-size: 30px;
+  text-align: center;
+}
+
+.room {
+  position: relative;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.description {
+  padding: 10px;
+}
+#tvroom{
+  position: absolute;
+  Border: 10px ridge burlywood;
+  bottom:1px;
+  left:8px;
+  height:100px;
+  width:50px;
+  border-bottom: none;
+  background-color: burlywood;
+}
+
+  #gameroom{
+  position: absolute;
+  Border: 10px ridge grey;
+  bottom:1px;
+  right:10px;
+  height:100px;
+  width:50px;
+  border-bottom: none;
+  background-color: grey;
+ }

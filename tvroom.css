@@ -1,0 +1,45 @@
+body {
+  font-family: Impact;
+  background-color: white;
+  color: black;
+}
+
+.roomname {
+  font-size: 30px;
+  text-align: center;
+}
+
+.room {
+  position: relative;
+  height: 200px;
+  border: 1px solid black;
+  background: url('multiple-realistic-televisions.png');
+  
+}
+
+.description {
+  padding: 10px;
+}
+
+#hall{
+  border:10px ridge aliceblue;
+  position: absolute;
+  bottom:1px;
+  background-color: aliceblue;
+  left: 8px;
+  height: 100px;
+  width: 50px;
+}
+
+#gamesroom{
+  border: 10px ridge grey;
+  position: absolute;
+  bottom: 1px;
+  background-color: grey;
+  right: 8px;
+  height: 100px;
+  width: 50px;
+}
+#url{
+  height: 100px;
+}
